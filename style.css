@@ -119,6 +119,6 @@ html, body {
 
 @media (max-width: 768px) {
   .container {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
   }
 }

@@ -4,22 +4,33 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>VALENCY - Coming Soon</title>
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
   <div class="container">
+
     <h1>VALENCY</h1>
-    <p class="tagline">The Future Of Shopping Is Coming.</p>
+    <p class="tagline">The future of shopping is coming.</p>
 
     <h2>COMING SOON</h2>
 
+    <!-- Countdown -->
     <div class="countdown">
       <div><span id="days">00</span><small>Days</small></div>
       <div><span id="hours">00</span><small>Hours</small></div>
       <div><span id="minutes">00</span><small>Minutes</small></div>
       <div><span id="seconds">00</span><small>Seconds</small></div>
     </div>
+
+    <!-- Waitlist -->
+    <form class="waitlist" action="https://formspree.io/f/mrewawol" method="POST">
+      <input type="email" name="email" placeholder="Enter your email" required />
+      <button type="submit">Notify Me</button>
+    </form>
+
   </div>
 
   <script src="script.js"></script>
